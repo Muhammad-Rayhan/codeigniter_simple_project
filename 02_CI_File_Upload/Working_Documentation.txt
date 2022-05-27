@@ -1,0 +1,5 @@
+1. At first load sign-in/log-in  page in codeignitor.
+2. Now make sure your from tag has two attribute like action or method.
+3. Action value declear when click sign-in/log-in button than go to action link.  //action="<?= base_url(); ?>log-in"
+4. Also declear method.  //method="post"
+5. Now set route, When click sign-in/log-in than go to our set routing page.  //$route['log-in'] = 'main/log_in'; 
